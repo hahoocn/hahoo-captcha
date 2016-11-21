@@ -1,6 +1,9 @@
 # hahoo-captcha
 A nodejs captcha module based on gm and creating random pleasing colors with PleaseJS
 
+![image](https://raw.githubusercontent.com/hahoocn/hahoo-captcha/master/img/captcha.png)
+![image](https://github.com/hahoocn/hahoo-captcha/raw/master/img/captcha2.png)
+
 ## Install
 
 First download and install [GraphicsMagick](http://www.graphicsmagick.org/) or [ImageMagick](http://www.imagemagick.org/). In Mac OS X, you can simply use Homebrew and do:
@@ -70,3 +73,10 @@ http.createServer((req, res) => {
 * `lineCount` the count of random line (default: 5)
 * `lineWidth` the width of random line  (default: 1)
 * `dotCount` the count of random dot (default: 200)
+
+This is use `baseColor: 'skyblue'` option (Please refer to HTML color):
+
+![image](https://github.com/hahoocn/hahoo-captcha/raw/master/img/captcha2.png)
+
+## License
+MIT
